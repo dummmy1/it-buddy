@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
+import Image from "next/image";
 import {
   Monitor,
   ShoppingCart,
@@ -11,6 +12,7 @@ import {
   Mail,
   Phone,
 } from "lucide-react";
+import blehhh from "./blehhpng.png";
 
 export default function Home() {
   return (
@@ -19,7 +21,8 @@ export default function Home() {
       <header className="border-b bg-card">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <Monitor className="h-6 w-6 text-primary" />
+            <Image src={blehhh} alt="blehhh" width={24} height={24} />
+
             <span className="text-xl font-semibold text-foreground">
               IT-Kamut
             </span>
@@ -408,7 +411,8 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="flex items-center gap-2">
-              <Monitor className="h-5 w-5 text-primary" />
+              <Image src={blehhh} alt="blehhh" width={20} height={20} />
+
               <span className="font-semibold text-card-foreground">
                 IT-Kamut
               </span>
