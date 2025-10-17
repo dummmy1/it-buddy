@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <div className="min-h-screen">
       {/* Header */}
-      <header className="border-b bg-card">
+      <header className="border-b bg-card fixed w-full z-50">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <Image src={blehhh} alt="blehhh" width={24} height={24} />
