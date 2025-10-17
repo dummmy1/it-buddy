@@ -62,7 +62,7 @@ export default function Home() {
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground text-pretty mb-8 leading-relaxed">
               Asiantuntevaa apua tietokoneisiin, laiteasennuksiin ja
-              ostospäätöksiin - ohjelmistotekniikan opiskelijalta. Ilmaiset
+              ostospäätöksiin ohjelmistotekniikan opiskelijalta. Ilmaiset
               konsultoinnit kaikissa teknisissä kysymyksissä.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -82,7 +82,7 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-foreground">
-              Mihin voin auttaa
+              Missä voin auttaa
             </h2>
             <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
               Kattavat IT-tukipalvelut tarpeidesi mukaan
@@ -128,7 +128,7 @@ export default function Home() {
                   Ostoapu ja neuvonta
                 </h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  Autan löytämään tarpeisiisi ja budjettiisi sopivat laitteet ja
+                  Apua löytämään tarpeisiisi ja budjettiisi sopivat laitteet ja
                   komponentit
                 </p>
               </CardContent>
