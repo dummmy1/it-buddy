@@ -99,7 +99,8 @@ export default function Home() {
                   Vianmääritys
                 </h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  Tietokone-, netti- ja ohjelmisto-ongelmat, virustenpoisto
+                  Tietokone-, puhelin-, netti- ja ohjelmisto-ongelmat,
+                  virustenpoisto
                 </p>
               </CardContent>
             </Card>
@@ -292,7 +293,7 @@ export default function Home() {
                   <li className="flex items-start gap-2">
                     <span className="text-destructive mt-1">•</span>
                     <span>
-                      Fyysisesti rikkoutuneiden PC-osien tai laitteistojen
+                      Fyysisesti rikkoutuneiden osien tai laitteistojen
                       korjausta
                     </span>
                   </li>
@@ -377,7 +378,7 @@ export default function Home() {
                     </h3>
                   </div>
                   <p className="text-2xl text-foreground font-bold mb-2">
-                    yhteys@itkamut.fi
+                    duumys1@proton.me
                   </p>
                   <p className="text-sm text-muted-foreground">
                     Paras tapa tarkempiin kyselyihin
@@ -397,7 +398,7 @@ export default function Home() {
                     +358 40 123 4567
                   </p>
                   <p className="text-sm text-muted-foreground">
-                    Soita tai lähetä viesti nopeisiin kysymyksiin
+                    (Ei vielä voimassa)
                   </p>
                 </CardContent>
               </Card>
